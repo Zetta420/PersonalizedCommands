@@ -2,3 +2,8 @@ name: PersonalizedCommands
 version: 1.0
 author: jak12210
 main: fr.jak12210.personalizedcommands.Main
+commands:
+  staff:
+    description: This commands write the staff on the tchat
+    permission: staff.show
+    usage: /staff
