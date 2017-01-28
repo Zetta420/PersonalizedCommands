@@ -7,3 +7,32 @@ commands:
     description: This commands write the staff on the tchat
     permission: staff.show
     usage: /staff
+  english:
+    description: This commands is used to set your language in english
+    permission: lang.change
+    usage: /english
+  francais:
+    description: This commands is used to set your language in french
+    permission: lang.change
+    usage: /francais
+  help:
+    description: Show help
+    usage: /help
+  aide:
+    description: Show help
+    usage: /aide
+  plugins:
+    description: Show plugins
+    usage: /plugins
+  pl:
+    description: Show plugins
+    usage: /pl
+  rules:
+    description: Show the rules
+    usage: /rules
+  regles:
+    description: Show the rules
+    usage: /regles
+  lang:
+    description: Change the lang
+    usage: /lang

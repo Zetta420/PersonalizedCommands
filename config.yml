@@ -1,6 +1,36 @@
 fr:
   staff:
     title: "&2== &4Notre staff &2=="
+    content: "&2---------------\n&4[Administrateur]&ajak12210\n&4[Administrateur]&aAdrazius\n&4[Administrateur]&aBrumyx"
+
+  lang-change: "&aVotre langue est maintenant : &cFrançais &a!"
+
+  help:
+    title: "&2== &4Aide EpicWars &2=="
+    page1: "&a- &c/staff &a--> &b Affiche la liste du staff"
+
+  plugins:
+    title: "&2== &4Info EpicWars &2=="
+    content: "&bNos plugins sont fait par nos développeurs, par conséquent, vous n'avez pas besoin de voir la liste de nos plugins !"
+
+  rules:
+    title: "&2== &4Règles EpicWars &2=="
+    content: "&c- Ne pas insulter"
 en:
   staff:
     title: "&2== &4Our Staff &2=="
+    content: "&2---------------\n&4[Administrator]&ajak12210\n&4[Administrator]&aAdrazius\n&4[Administrator]&aBrumyx"
+
+  lang-change: "&aYour language is now : &cEnglish &a!"
+
+  help:
+    title: "&2== &4EpicWars Help &2=="
+    page1: "&a- &c/staff &a--> &b Show the list of the staff"
+
+  plugins:
+    title: "&2== &4EpicWars Info &2=="
+    content: "&bOur plugins are made by our developpers, so you don't need to see the list of our plugins !"
+
+  rules:
+    title: "&2== &4EpicWars Rules &2=="
+    content: "&c- Don't injure"
