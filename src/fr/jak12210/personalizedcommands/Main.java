@@ -3,6 +3,7 @@ package fr.jak12210.personalizedcommands;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 
 public class Main extends JavaPlugin implements Listener {
 	public void loadConfig() {
