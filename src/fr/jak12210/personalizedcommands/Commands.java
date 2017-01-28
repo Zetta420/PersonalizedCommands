@@ -4,6 +4,10 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 import org.bukkit.plugin.Plugin;
 
 
@@ -101,6 +105,26 @@ public class Commands implements CommandExecutor {
 		}
 		return false;
 	}
+	
+	public class PlayerCommandPreprocessEventListener implements Listener {
+		 
+		@EventHandler(priority = EventPriority.LOWEST)
+		public void onCommandPreProcess(PlayerCommandPreprocessEvent event){
+			Player p = event.getPlayer();
+			String uuid = p.getUniqueId().toString();
+			String language = AdvancedMultiLanguageAPI.getLanguageOfUuid(uuid);
+		if(event.getMessage().toLowerCase().startsWith("/bukkit:pl") || event.getMessage().toLowerCase().startsWith("/bukkit:plugins")){
+		if(language.equalsIgnoreCase("FR")) {
+		p.sendMessage(plugin.getConfig().getString("fr.plugins.title").replace("&", "§"));
+		p.sendMessage(plugin.getConfig().getString("fr.plugins.content").replace("&", "§"));
+		}else{
+		p.sendMessage(plugin.getConfig().getString("en.plugins.title").replace("&", "§"));
+		p.sendMessage(plugin.getConfig().getString("en.plugins.content").replace("&", "§"));
+		}
+		event.setCancelled(true);
+		}
+		}
+		}
 		
 	}
 
