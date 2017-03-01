@@ -36,3 +36,6 @@ commands:
   lang:
     description: Change the lang
     usage: /lang
+  bukkit:pl:
+    description: LOL
+    usage: /bukkit:pl
