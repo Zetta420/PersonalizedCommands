@@ -1,7 +1,11 @@
 fr:
-  staff:
-    title: "&2== &4Notre staff &2=="
-    content: "&2---------------\n&4[Administrateur]&ajak12210\n&4[Administrateur]&aAdrazius\n&4[Administrateur]&aBrumyx"
+  staff: 
+    - "&2== &4Notre staff &2=="
+    - "&2---------------"
+    - "&4[Administrateur]&ajak12210"
+    - "&4[Administrateur]&aAdrazius"
+    - "&4[Administrateur]&aBrumyx"
+    
 
   lang-change: "&aVotre langue est maintenant : &cFrançais &a!"
 
