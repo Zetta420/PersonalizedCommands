@@ -48,7 +48,7 @@ public class Commands implements CommandExecutor {
 	@Override
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String msg, String[] args) {
-		String configfr = "fr.staff.title";
+		String configfr = "fr.staff";
 		String configen = "en.staff.title";
 		String commande = "staff";
 		myTextCommand1(sender, cmd, msg, args, configfr, configen, commande);
