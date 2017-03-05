@@ -28,13 +28,13 @@ public class Commands implements CommandExecutor {
 			if(cmd.getName().equalsIgnoreCase(commande)){
 				if(args.length == 0){
 					if(language.equalsIgnoreCase("FR")) {
-							while(configfr.length() >= 1){
-						p.sendMessage(plugin.getConfig().getStringList(configfr));
-							}
+						for (String monMessage : plugin.getConfig().getStringList(configfr)) {
+						p.sendMessage(monMessage.replace("&", "§"));
+						}
 						
 					}else{
-						while(configen.length() <= 1){
-						p.sendMessage(plugin.getConfig().getStringList(configen));
+						for (String monMessage : plugin.getConfig().getStringList(configfr)) {
+						p.sendMessage(monMessage.replace("&", "§"));
 						}
 					}
 					return true;
