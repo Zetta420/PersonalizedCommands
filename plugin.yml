@@ -39,3 +39,6 @@ commands:
   announce:
     description: LOL
     usage: /announce
+  kirikou:
+    description: LOL
+    usage: /kirikou

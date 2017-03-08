@@ -38,3 +38,18 @@ en:
   rules:
     title: "&2== &4EpicWars Rules &2=="
     content: "&c- Don't injure"
+commandes:
+  - "staff"
+  staff:
+    fr:
+    - "&2== &4Notre staff &2=="
+    - "&2---------------"
+    - "&4[Administrateur]&ajak12210"
+    - "&4[Administrateur]&aAdrazius"
+    - "&4[Administrateur]&aBrumyx"
+    en:
+    - "&2== &4Our Staff &2=="
+    - "&2---------------"
+    - "&4[Administrator]&ajak12210"
+    - "&4[Administrator]&aAdrazius"
+    - "&4[Administrator]&aBrumyx"
